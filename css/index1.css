@@ -131,6 +131,13 @@ header {
     box-shadow: 0px 0px 10px 0px rgb(52, 52, 52);
 }
 
+.header-content .picture {
+    width: 400px;
+    height: 350px;
+    background: url("../images/me.jpg");
+    background-size: cover;
+}
+
 .header-content > figure {
     margin-left: 30px;
     text-align: left;
@@ -247,11 +254,12 @@ div {
 }
 
 .opacity-bg {
+
     position: absolute;
     top: -150%;
     left: 0;
-    width: 500px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
     background: url("../images/bg.png");
     transition: all 0.5s;
     padding: 40px;
@@ -491,3 +499,140 @@ div {
     font-size: 16px;
 }
 
+@media screen and (max-width: 1025px){
+    header {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .header-content .picture {
+        width: 600px;
+        height: 300px;
+    }
+
+    h1 {
+        font-size: 24px !important;
+    }
+
+    dl dt{
+        font-size: 12px;
+    }
+
+    dd {
+        font-size: 12px;
+        margin-left: 20px;
+    }
+
+    .click-btn {
+        padding: 0.5rem;
+    }
+
+    .opacity-bg a {
+        margin-top: 50px;
+    }
+
+    .technique .icons {
+        padding: 0 30px;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .header-content {
+        width: 100%;
+    }
+
+    .move1, .move2, .move3, .move4, .move5 {
+        margin: 0 10px;
+    }
+
+    .contact span {
+        font-size: 12px;
+        text-align: center;
+        margin: 10px;
+    }
+
+}
+
+@media screen and (max-width: 426px){
+    .header-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    .header-content .picture {
+        width: 145px;
+        height: 200px;
+        margin-bottom: 20px;
+    }
+    .header-content > figure {
+        margin-left:0;
+    }
+    figure {
+        justify-content: center;
+        align-items: center;
+    }
+
+    text {
+        margin-left: 105px;
+    }
+
+
+    .opacity-bg {
+        padding: 20px;
+    }
+
+    .opacity-bg p {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+
+    .slow-move {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .move1, .move2, .move3, .move4, .move5 {
+        width: 350px;
+        height: 350px;
+        margin-bottom: 30px;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: end;
+    }
+
+    .about {
+        padding: 10px;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .move1, .move2, .move3, .move4, .move5 {
+        width: 290px;
+        height: 290px;
+    }
+
+    .opacity-bg a {
+        margin-top: 20px;
+    }
+
+    .opacity-bg h2 {
+        font-size: 20px;
+    }
+
+    .opacity-bg p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .about {
+        width: 100%;
+    }
+}
