@@ -113,7 +113,7 @@ i {
 header {
     width: 100%;
     height: 100vh;
-    background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(https://i.ibb.co/pQ4V83y/header-background.jpg);
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url("../images/header-background.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -134,7 +134,7 @@ header {
 .header-content .picture {
     width: 400px;
     height: 350px;
-    background: url("https://i.ibb.co/K5VCphc/me.jpg");
+    background: url("../images/me.jpg");
     background-size: cover;
 }
 
@@ -218,7 +218,7 @@ div {
     margin-top: 50px;
 }
 
-.move1,.move2,.move3,.move4,.move5 {
+.move1, .move2, .move3, .move4, .move5 {
     width: 500px;
     height: 400px;
     margin: 0 50px;
@@ -238,7 +238,7 @@ div {
     padding: 10px 0;
 }
 
-.explain h1,h6 {
+.explain h1, h6 {
     color: #ffffff;
 }
 
@@ -260,7 +260,7 @@ div {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url("https://i.ibb.co/J554byw/bg.png");
+    background: url("../images/bg.png");
     transition: all 0.5s;
     padding: 40px;
 }
@@ -295,7 +295,7 @@ div {
     background: #ffffff;
 }
 
-.opacity-bg a:before,a:after {
+.opacity-bg a:before, a:after {
     background: #D6A61B;
 }
 
@@ -360,25 +360,25 @@ div {
 }
 
 .move1 {
-    background: url("https://i.ibb.co/NVgCCHF/cnode.jpg");
+    background: url("../images/project/cnode.jpg");
 }
 
 .move2 {
-    background: url("https://i.ibb.co/GkzMS0v/share.jpg");
+    background: url("../images/project/share.jpg");
     margin-top: 100px;
 }
 
 .move3 {
-    background: url("https://i.ibb.co/j6jk6kN/drawing-board.jpg");
+    background: url("../images/project/drawing-board.jpg");
 }
 
 .move4 {
-    background: url("https://i.ibb.co/QfZjswv/css-drawing.jpg");
+    background: url("../images/project/css-drawing.jpg");
     margin-top: 100px;
 }
 
 .move5 {
-    background: url("https://i.ibb.co/z5BQHLq/nav-search.jpg");
+    background: url("../images/project/nav-search.jpg");
     margin-top: 100px;
 }
 
@@ -461,7 +461,7 @@ div {
     align-items: center;
     padding: 30px 0;
     width: 100%;
-    background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url("https://i.ibb.co/8X0Rnhg/bg-callout.jpg");
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url("../images/bg-callout.jpg");
 }
 
 .about {
@@ -499,7 +499,7 @@ div {
     font-size: 16px;
 }
 
-@media screen and (max-width: 1025px){
+@media screen and (max-width: 1025px) {
     header {
         display: flex;
         justify-content: center;
@@ -515,7 +515,7 @@ div {
         font-size: 24px !important;
     }
 
-    dl dt{
+    dl dt {
         font-size: 12px;
     }
 
@@ -555,7 +555,15 @@ div {
 
 }
 
-@media screen and (max-width: 426px){
+@media screen and (max-width: 426px) {
+    header {
+        background: #FAC41F;
+    }
+
+    .experience {
+        background: #FAC41F;
+    }
+
     .header-content {
         flex-direction: column;
         justify-content: center;
@@ -568,16 +576,34 @@ div {
         height: 200px;
         margin-bottom: 20px;
     }
+
     .header-content > figure {
-        margin-left:0;
+        margin-left: 40px;
     }
+
     figure {
         justify-content: center;
         align-items: center;
+        position: relative;
+    }
+
+    figure h1 {
+        position: absolute;
+        left: 45%;
+        top: 0;
+        transform: translate(-50%,-50%);
+    }
+
+    figure .h {
+        position: absolute;
+        left: 45%;
+        top: 8%;
+        transform: translate(-50%,-50%);
     }
 
     text {
-        margin-left: 105px;
+        margin-left: 20%;
+        margin-top: 15%;
     }
 
 
@@ -613,7 +639,7 @@ div {
     }
 }
 
-@media screen and (max-width: 376px){
+@media screen and (max-width: 376px) {
     .move1, .move2, .move3, .move4, .move5 {
         width: 290px;
         height: 290px;
@@ -634,5 +660,9 @@ div {
 
     .about {
         width: 100%;
+    }
+
+    text {
+        margin-left: 10%;
     }
 }
