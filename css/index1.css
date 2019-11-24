@@ -129,6 +129,26 @@ header {
     display: flex;
     margin: 0 auto;
     box-shadow: 0px 0px 10px 0px rgb(52, 52, 52);
+    overflow: hidden;
+}
+
+.header-content .resume {
+    width: 115px;
+    height: 145px;
+    background: #1d809f;
+    position: fixed;
+    right: -10%;
+    bottom: -13%;
+    transform: rotate(40deg);
+}
+
+.header-content .resume span {
+    position: absolute;
+    left:-10%;
+    top: 50%;
+    transform: rotate(-90deg);
+    font-size: 12px;
+    color: #ffffff;
 }
 
 .header-content .picture {
@@ -553,6 +573,13 @@ div {
         margin: 10px;
     }
 
+    .header-content .resume {
+        width: 125px;
+        height: 140px;
+        right: -9%;
+        bottom: -13%;
+    }
+
 }
 
 @media screen and (max-width: 426px) {
@@ -637,6 +664,18 @@ div {
         padding: 10px;
         width: 95%;
     }
+
+    .header-content .resume {
+        width: 130px;
+        height: 137px;
+        right: -17%;
+        bottom: -9%;
+    }
+
+    .header-content .resume span {
+        left: -15%;
+        top: 48%;
+    }
 }
 
 @media screen and (max-width: 376px) {
@@ -664,5 +703,20 @@ div {
 
     text {
         margin-left: 10%;
+    }
+
+    .header-content .resume {
+        right: -20%;
+    }
+}
+
+@media screen and (max-width: 321px){
+    .header-content .resume span {
+        font-size: 10px;
+        top: 54%;
+    }
+
+    .header-content .resume {
+        width: 100px;
     }
 }
