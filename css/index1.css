@@ -137,8 +137,8 @@ header {
     height: 145px;
     background: #1d809f;
     position: fixed;
-    right: -10%;
-    bottom: -13%;
+    right: -7%;
+    bottom: -12%;
     transform: rotate(40deg);
 }
 
@@ -556,6 +556,10 @@ div {
         padding: 0 30px;
         flex-wrap: wrap;
     }
+
+    .header-content .resume {
+        right: -10%;
+    }
 }
 
 @media screen and (max-width: 769px) {
@@ -574,10 +578,15 @@ div {
     }
 
     .header-content .resume {
-        width: 125px;
+        width: 85px;
         height: 140px;
-        right: -9%;
-        bottom: -13%;
+        right: -5%;
+        bottom: -10%;
+    }
+
+    .header-content .resume span {
+        left: -15%;
+        top: 53%;
     }
 
 }
@@ -676,6 +685,18 @@ div {
         left: -15%;
         top: 48%;
     }
+
+    dl dt {
+        padding: 10px 0;
+    }
+
+    dd {
+        padding: 10px 0;
+    }
+
+    .header-content .resume {
+        bottom: -10%;
+    }
 }
 
 @media screen and (max-width: 376px) {
@@ -718,5 +739,9 @@ div {
 
     .header-content .resume {
         width: 100px;
+    }
+
+    .header-btn {
+        margin-top: 0;
     }
 }
