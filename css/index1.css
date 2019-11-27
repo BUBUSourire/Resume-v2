@@ -238,7 +238,7 @@ div {
     margin-top: 50px;
 }
 
-.move1, .move2, .move3, .move4, .move5 {
+.move1, .move2, .move3, .move4, .move5,.move6 {
     width: 500px;
     height: 400px;
     margin: 0 50px;
@@ -393,13 +393,17 @@ div {
 }
 
 .move4 {
-    background: url("../images/project/css-drawing.jpg");
+    background: url("../images/project/snake.jpg");
     margin-top: 100px;
 }
 
 .move5 {
     background: url("../images/project/nav-search.jpg");
     margin-top: 100px;
+}
+
+.move6 {
+    background: url("../images/project/css-drawing.jpg");
 }
 
 /*Technique*/

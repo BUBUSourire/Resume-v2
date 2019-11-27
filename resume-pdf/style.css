@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul, li {
+    list-style: none;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+i {
+    font-style: normal;
+    font-weight: 700;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    font-size: 25px;
+}
+
+.line {
+    width: 100%;
+    height: 2px;
+    background: #000000;
+}
+
+.title {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 40%);
+    background: #FAC41F;
+    padding: 0 10px;
+    letter-spacing: 3px;
+}
+
+.content {
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid #FAC41F;
+    height: 100%;
+    display: flex;
+}
+
+.left-content {
+    width: 30%;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    background: #FAC41F;
+}
+
+.left-content .me {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    z-index: 1;
+    background: url("../images/me.jpg");
+    background-size: cover;
+    margin-top: 25%;
+    margin-bottom: 20%;
+}
+
+.left-content figure {
+    width: 100%;
+    position: relative;
+    margin-top: 20%;
+}
+
+.left-content .contact {
+    width: 100%;
+    margin-top: 15%;
+    padding: 0 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+}
+
+.left-content .contact span {
+    display: block;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.left-content .contact ul li {
+    margin-bottom: 30px;
+}
+
+.left-content .technique {
+    width: 100%;
+    margin-top: 15%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.left-content .technique ul {
+    width: 100%;
+}
+
+.left-content .technique ul li {
+    margin-bottom: 20%;
+    font-size: 16px;
+}
+
+.left-content .technique .count {
+    width: 100%;
+    height: 5px;
+    margin-top: 5%;
+    background: #f1f1f1;
+    border-radius: 6px;
+}
+
+.left-content .technique .count-item {
+    height: 5px;
+    background: #1D809F;
+    border-radius: 6px;
+}
+
+.left-content .technique .h5c3 {
+    width: 70%;
+}
+
+.left-content .technique .js {
+    width: 60%;
+}
+
+.left-content .technique .vue {
+    width: 50%;
+}
+
+.left-content .technique .wechat {
+    width: 40%;
+}
+
+.right-content {
+    width: 100%;
+    padding:8% 5% 0;
+}
+
+.right-content h1, h3 {
+    display: inline-block;
+    letter-spacing: 3px;
+}
+
+.right-content h1 {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.right-content figure {
+    position: relative;
+}
+
+.right-content .name {
+    margin-bottom: 3%;
+}
+
+.right-content .about-me {
+    margin-top: 10%;
+}
+
+.right-content .title {
+    left: 10%;
+    background: #ffffff;
+}
+
+.right-content .about-me dl {
+    margin-top: 5%;
+    font-size: 14px;
+}
+
+.right-content .about-me .left-me,.right-me  {
+    float: left;
+}
+
+.right-content .about-me .left-me {
+    margin-right: 10%;
+}
+
+.right-content .about-me dl dt {
+    width: 40%;
+    padding-bottom: 10px;
+    font-weight: 700;
+    float: left;
+}
+
+.right-content .about-me dl dd {
+    width: 60%;
+    padding-bottom: 10px;
+    float: left;
+}
+
+.right-content .job {
+    margin-top: 23%;
+}
+
+.right-content .job ul {
+    margin-top: 5%;
+}
+
+.right-content .job ul li:first-child,li:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.right-content .job ul li span {
+    font-weight: 700;
+    margin-left: 5%;
+}
+
+.right-content .project {
+    margin-top: 10%;
+}
+
+.right-content .project ul {
+    margin-top: 5%;
+}
+
+.right-content .project ul li {
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.right-content .project p {
+    text-align:justify;
+    margin-top: 2%;
+}
+.right-content .project .linking {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.right-content .project .linking a{
+    margin-left: 20px;
+    color: #1D809F;
+}
+
+
+
+
+
+
+
