@@ -571,7 +571,7 @@ div {
         width: 100%;
     }
 
-    .move1, .move2, .move3, .move4, .move5 {
+    .move1, .move2, .move3, .move4, .move5,.move6 {
         margin: 0 10px;
     }
 
@@ -662,7 +662,7 @@ div {
         align-items: center;
     }
 
-    .move1, .move2, .move3, .move4, .move5 {
+    .move1, .move2, .move3, .move4, .move5,.move6 {
         width: 350px;
         height: 350px;
         margin-bottom: 30px;
@@ -704,7 +704,7 @@ div {
 }
 
 @media screen and (max-width: 376px) {
-    .move1, .move2, .move3, .move4, .move5 {
+    .move1, .move2, .move3, .move4, .move5,.move6 {
         width: 290px;
         height: 290px;
     }
