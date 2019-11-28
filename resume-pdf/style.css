@@ -150,7 +150,11 @@ i {
 
 .right-content {
     width: 100%;
-    padding:8% 5% 0;
+    padding:5% 5% 0;
+}
+
+.right-content p {
+    margin-top: 3%;
 }
 
 .right-content h1, h3 {
@@ -172,7 +176,7 @@ i {
 }
 
 .right-content .about-me {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .right-content .title {
@@ -224,7 +228,7 @@ i {
 }
 
 .right-content .project {
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .right-content .project ul {
