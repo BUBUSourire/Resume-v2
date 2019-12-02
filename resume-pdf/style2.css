@@ -60,7 +60,7 @@ i {
 }
 
 dl {
-    margin-bottom: 3%;
+    margin-bottom: 4%;
     margin-left: 3%;
 }
 
@@ -71,7 +71,7 @@ dt {
 }
 
 dd {
-    margin: 10px 0;
+    margin: 9px 0;
     color: #666;
     letter-spacing: 2px;
 }
@@ -131,8 +131,8 @@ margin-left: -1%;
     color: #666;
 }
 
-.work,.skill,.project {
-    margin-top: 7%;
+.work,.skill,.project,.other {
+    margin-top: 3%;
 }
 
 .work dl {
