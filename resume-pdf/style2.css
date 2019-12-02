@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+ul,li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #1eb7d8;
+    margin:0 5px;
+}
+
+i {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    color: #1eb7d8;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.content {
+    width: 900px;
+    margin: 0 auto;
+    border: 1px solid #e1e1e1;
+    height: 100%;
+    display: flex;
+    padding: 5%;
+    flex-direction: column;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+}
+
+.sth-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 5%;
+    color: #333333;
+}
+
+.line {
+    width: 5px;
+    height: 20px;
+    background: #1eb7d8;
+    margin-right: 15px;
+}
+
+dl {
+    margin-bottom: 3%;
+    margin-left: 3%;
+}
+
+dt {
+    color: #666666;
+    font-weight: 700;
+
+}
+
+dd {
+    margin: 10px 0;
+    color: #666;
+    letter-spacing: 2px;
+}
+
+
+/*开始*/
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.me-detail {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.me {
+    width:110px;
+    height: 100px;
+    overflow: hidden;
+    background: url("../images/me.jpg");
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.me-detail ul {
+    margin-top: 15px;
+    color: #414A60;
+}
+
+.me-detail ul li{
+    float: left;
+    margin-right: 20px;
+}
+
+.me-detail .about li:nth-child(2n) {
+    color: #B9B9B9;
+}
+
+.me-detail h1 {
+margin-left: -1%;
+}
+
+.me-detail .call li{
+    margin-right: 1%;
+    letter-spacing: 0.5px;
+    font-size: 12px;
+}
+
+.call {
+    color: #666666;
+}
+
+.call a{
+    color: #666;
+}
+
+.work,.skill,.project {
+    margin-top: 7%;
+}
+
+.work dl {
+    margin-top: 30px;
+    position: relative;
+}
+
+.work dt {
+    margin-bottom: 20px;
+}
+
+.work dt span {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.work dt span.time {
+    font-size: 12px;
+    color: #B9B9B9;
+    font-weight: 400;
+    margin-left: 5%;
+    position: absolute;
+    right: 0;
+}
+
+.project {
+    position: relative;
+}
+
+.project dt span{
+    font-weight: 700;
+}
+
+.project .see {
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+}
+
+.project .special-word {
+    margin-bottom: 15px;
+}
